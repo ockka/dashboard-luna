@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.App-header {
+  > img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    animation-name: FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 300s;
+    &.a {
+      animation-delay: 270s;
+    }
+    &.b {
+      animation-delay: 240s;
+    }
+    &.c {
+      animation-delay: 210s;
+    }
+    &.d {
+      animation-delay: 180s;
+    }
+    &.e {
+      animation-delay: 150s;
+    }
+    &.f {
+      animation-delay: 120s;
+    }
+    &.g {
+      animation-delay: 90s;
+    }
+    &.h {
+      animation-delay: 60s;
+    }
+    &.i {
+      animation-delay: 30s;
+    }
+    &.j {
+      animation-delay: 0s;
+    }
+  }
+}
+
+@keyframes FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  9.6% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  99.6% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

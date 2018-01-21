@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["react", "jsx-a11y", "import"],
+  "rules": {
+    "quotes": 1,
+    "no-extra-semi": 0,
+    "semi": 0,
+    "no-use-before-define": 0,
+    "no-param-reassign": 0,
+    "no-console": 0,
+    "no-plusplus": 0,
+    "global-require": 0,
+    "prefer-destructuring": 0,
+    "import/prefer-default-export": 0,
+    "react/prefer-stateless-function": 0,
+    "react/prop-types": 0,
+    "react/no-multi-comp": 0,
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }]
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
